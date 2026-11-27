@@ -1,0 +1,29 @@
+# Segredos — repositório público
+.env
+.env.*
+!.env.example
+credenciais/
+*service-account*.json
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+
+# Dados reais de pacientes nunca entram no repositório
+dados/
+exports/
+*.csv
+
+# Editor / SO
+.vscode/
+.idea/
+.DS_Store
